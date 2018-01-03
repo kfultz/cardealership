@@ -1,0 +1,66 @@
+=begin
+puts "Welcome to the best Dealership in the land!".center(80, "*")
+car_stock = 5
+puts "We have #{car_stock} vehicles currently in store, and ready to peruse.".center(80)
+
+puts "\nFirst, choose a friendly salesperson to help you with your selection."
+
+sales1 = "mike"
+sales2 = "sally"
+sales3 = "tusnelda"
+sales4 = "george"
+
+quota1 = 6
+quota2 = 9
+quota3 = 3
+
+sold1 = 2
+sold2 = 1
+sold3 = 3
+
+deal1 = 500
+deal2 = 1500
+deal3 = 250
+
+lowprice = deal2 * 1.50
+
+puts "\n#{sales1.capitalize} needs to sell #{quota1 - sold2} more cars this month to meet quota. They can offer you a deal of $#{deal1} off list price."
+puts "#{sales2.capitalize} needs to sell #{quota2 - sold3} more cars this month to meet quota. They can offer you a deal of $#{deal2} off list price."
+puts "#{sales3.capitalize} needs to sell #{quota3 - sold1} more cars this month to meet quota. They can offer you a deal of $#{deal1 + sold2} off list price."
+puts "#{sales4.capitalize} needs to sell #{quota1 + sold2} more cars this month to meet quota. They can offer you a deal of $#{'%.2f' % lowprice} off list price."
+
+
+car1 = "2018 Subaru Forester"
+car2 = "2006 Volkswagen Golf"
+car3 = "1998 Honda Civic"
+car4 = "1992 Mercury Mountaineer"
+car5 = "2010 Jeep Wrangler"
+
+puts "\n\nAvailable Vehicles: \n \t#{car1.center(23)} \n \t #{car2} \n \t #{car3} \n \t #{car4} \n \t #{car5}"
+
+color1 = "red"
+color2 = "blue"
+color3 = "black"
+color4 = "white"
+color5 = "sage green"
+
+feature1 = "all wheel drive"
+feature2 = "sunroof"
+feature3 = "heated seats"
+feature4 = "satellite radio"
+feature5 = "power steering"
+
+cost1 = 25000
+cost2 = 15599
+cost3 = 35965
+
+listprice1 = "$#{cost1.to_s}"
+
+puts "\nThe #{car1} has the following features:\n\t Color: #{color1.capitalize} \n \t #{feature1.upcase} \n \t #{feature3.capitalize} \n \t #{feature5}"
+puts "List Price: #{listprice1.rjust(40, ".")}."
+
+puts "\nThe #{car2} has the following features:\n\t Color:"
+=end
+
+
+
